@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'tl_4cgzavf5sacmx=z0)ci(%x*0vr=j0vg2+r4y$d9hrge7_#o'
+SECRET_KEY = 'SECRET_KEY'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -167,5 +167,5 @@ LOGIN_REDIRECT_URL = '/'
 
 CART_ID = 'cart_in_session'
 
-IAMPORT_KEY = '4304286863384498'
-IAMPORT_SECRET = '3d7908a2fb27ebb6a278b192f0a2b6bfb13f722cb6184dfd951b895bddae946dd0462c4d55398b09'
+IAMPORT_KEY = 'IAMPORT_KEY'
+IAMPORT_SECRET = 'IAMPORT_SECRET'
